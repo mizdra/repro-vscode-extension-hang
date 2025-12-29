@@ -1,0 +1,34 @@
+{
+  "name": "repro-vscode-extension-hang",
+  "version": "1.0.0",
+  "publisher": "mizdra",
+  "description": "",
+  "main": "src/extension.cjs",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mizdra/repro-vscode-extension-hang.git"
+  },
+  "author": "mizdra <pp.mizdra@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mizdra/repro-vscode-extension-hang/issues"
+  },
+  "homepage": "https://github.com/mizdra/repro-vscode-extension-hang#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/vscode": "^1.107.0",
+    "typescript": "^5.9.3"
+  }
+}
