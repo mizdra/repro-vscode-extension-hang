@@ -6,7 +6,7 @@
 4. In the new VS Code window that opens, run `F1 > Hello World` command.
 
 ## Expected behavior
-The extension activates without hanging. Information message "Hello World from your extension!" is shown.
+The extension activates without hanging. Information message "Hello World!" is shown.
 
 ## Actual behavior
 The extension activation hangs indefinitely. Information message is never shown.
